@@ -1,11 +1,11 @@
 {
   "name": "crud_users",
   "version": "1.0.0",
-  "description": "",
+  "description": "### Objetivo: Simular una entrevista tecnica, el estudiante debera corregir el codigo y agregar ciertos features",
   "main": "index.js",
   "scripts": {
     "start": "node ./src/app.js",
-    "dev": "echo \"Ups este comando no existe\" && exit 1"
+    "dev": "nodemon ./src/app.js"
   },
   "keywords": [],
   "author": "",
@@ -19,5 +19,13 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.20"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wilhelmXX16/users-spagheti-entr3.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wilhelmXX16/users-spagheti-entr3/issues"
+  },
+  "homepage": "https://github.com/wilhelmXX16/users-spagheti-entr3#readme"
 }
